@@ -224,6 +224,13 @@ h6 { font-size:1.80rem; line-height:2.5rem; }
 /* text stroke */
 .text-border { -webkit-text-fill-color: transparent; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: white; }
 
+/*Testimonials style*/
+.style-bg-text
+{
+ background-color: #1b5372 !important;
+ color: white !important;
+}
+
 /* text stroke width */
 .text-border-width-1px { -webkit-text-stroke-width: 1px; }
 .text-border-width-2px { -webkit-text-stroke-width: 2px; }
