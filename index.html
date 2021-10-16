@@ -496,7 +496,7 @@
                     </div>
                     <div class="col-12 col-xl-5 offset-xl-2 offset-lg-1 col-lg-5 col-sm-9">
                         <div class="newsletter-email position-relative w-100">
-                            <form action="email-templates/subscribe-newsletter.php" method="post">
+                            <form name="subcriber" method="POST" data-netlify="true">
                                 <input class="large-input border-radius-4px m-0 border-0 required" type="email" name="email" placeholder="Enter your email address">
                                 <input type="hidden" name="redirect" value="">
                                 <button class="btn btn-medium text-extra-dark-gray border-left border-0 border-color-extra-medium-gray font-weight-600 py-0 submit" type="submit"><i class="far fa-envelope text-neon-orange icon-very-small margin-10px-right xs-no-margin-right"></i><span class="d-none d-sm-inline-block">subscribe</span></button>
